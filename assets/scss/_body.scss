@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  color: green;
+}
+body {
+  font-size: 1.6rem;
+  padding: 4rem;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 100vh;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 1rem 0;
+  }
+}
+.body-color {
+  background: linear-gradient(
+    to bottom,
+    black,
+    #272727
+  );
+}
+.body-light {
+  background: linear-gradient(to bottom, #fff, #808080);
+}
+html {
+  font-size: 62.5%;
+}
